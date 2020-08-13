@@ -1,7 +1,7 @@
 {
-  "homepage": "http://raihanputraramd.github.io/portofolio",
   "name": "portofolio",
   "version": "0.1.0",
+  "homepage": "https://raihanputraramd.github.io/my-portofolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,12 +16,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
