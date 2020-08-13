@@ -10,7 +10,7 @@ function App() {
       <Layout>
         <Header className="header-color" title="Portofolio" scroll>
           <Navigation>
-            <Link to="/">Home Page</Link>
+            <Link to="/portofolio/">Home Page</Link>
             <Link to="/project">Projects</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
